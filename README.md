@@ -4,7 +4,7 @@ This is my development setup.
 
 ## Operating System
 
-**I use Arch by the way.**
+I use Linux by the way.
 
 ### Setup
 

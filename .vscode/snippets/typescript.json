@@ -55,5 +55,12 @@
       "}",
       ""
     ]
+  },
+  "props": {
+    "prefix": "props",
+    "description": "props",
+    "body": [
+      "let { $0 } = \\$props()"
+    ]
   }
 }

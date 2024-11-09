@@ -60,5 +60,12 @@
     "body": [
       "{% youtube id=\"$1\" title=\"$2\" %}"
     ]
+  },
+  "REPL": {
+    "prefix": "repl",
+    "description": "StackBlitz",
+    "body": [
+      "{% embed src=\"https://stackblitz.com/github/joysofcode/$1?ctl=1&embed=1&file=src%2Froutes%2F%2Bpage.svelte&view=preview&title=$2\" title=\"$2\" %}"
+    ]
   }
 }

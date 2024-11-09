@@ -1,39 +1,50 @@
 {
 	// Interface
-	"window.title": "${activeEditorMedium}",
+	"window.title": "${activeEditorShort}",
 	"window.titleBarStyle": "native",
-	"window.menuBarVisibility": "toggle",
+	"window.customTitleBarVisibility": "never",
+	"window.menuBarVisibility": "hidden",
 	"window.commandCenter": false,
 	"window.zoomLevel": 1,
-	"workbench.colorTheme": "poimandres",
+	"workbench.colorTheme": "poimandres-noitalics",
 	"workbench.iconTheme": "symbols",
 	"workbench.startupEditor": "none",
-	"workbench.sideBar.location": "right",
+	"workbench.sideBar.location": "left",
 	"workbench.layoutControl.enabled": false,
 	"workbench.editor.enablePreview": false,
 	"workbench.editor.labelFormat": "short",
+	"workbench.editor.empty.hint": "hidden",
+	"workbench.editor.showTabs": "none",
+	"workbench.tree.enableStickyScroll": false,
 	"workbench.tree.indent": 18,
+	"workbench.activityBar.location": "hidden",
+	"workbench.statusBar.visible": true,
+	"workbench.panel.showLabels": false,
+	"editor.folding": false,
+	"editor.glyphMargin": false,
 	"editor.lineNumbers": "on",
+	"editor.lightbulb.enabled": "off",
 	"editor.minimap.enabled": false,
 	"editor.bracketPairColorization.enabled": false,
 	"editor.cursorBlinking": "solid",
 	"editor.cursorSmoothCaretAnimation": "on",
 	"editor.scrollbar.horizontalScrollbarSize": 4,
 	"editor.scrollbar.verticalScrollbarSize": 4,
+	"editor.stickyScroll.enabled": false,
 	"explorer.compactFolders": false,
 	"explorer.autoReveal": false,
-	"breadcrumbs.enabled": false,
+	"breadcrumbs.enabled": true,
+	"breadcrumbs.symbolPath": "off",
 	"symbols.hidesExplorerArrows": false,
 	// Font
 	"editor.fontFamily": "Monaspace Neon, MonoLisa, Geist Mono, Monocraft, JetBrains Mono, IBM Plex Mono, Mononoki Nerd Font, Droid Sans Mono, Anonymous Pro, Operator Mono Book, Fira Code, Cascadia Code",
-	"editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss01', 'ss02'",
-	"editor.fontSize": 18,
+	"editor.fontSize": 16,
 	"editor.lineHeight": 2,
 	"editor.tabSize": 2,
 	"editor.wordWrap": "on",
 	// Terminal
 	"terminal.integrated.fontFamily": "Monaspace Neon, MonoLisa, Monocraft, JetBrains Mono, IBM Plex Mono, Mononoki Nerd Font, Fira Code",
-	"terminal.integrated.fontSize": 18,
+	"terminal.integrated.fontSize": 16,
 	"terminal.integrated.cursorStyle": "line",
 	"terminal.integrated.cursorBlinking": false,
 	"terminal.integrated.defaultProfile.linux": "zsh",
@@ -51,9 +62,6 @@
 	// Formatting
 	"editor.formatOnSave": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"[prisma]": {
-		"editor.defaultFormatter": "Prisma.prisma"
-	},
 	// Svelte
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"
@@ -62,17 +70,17 @@
 	// Linux multi-cursor
 	"editor.multiCursorModifier": "ctrlCmd",
 	// Telemetry
-	"telemetry.telemetryLevel": "off",
+	"telemetry.telemetryLevel": "all",
 	// Git
 	"diffEditor.renderSideBySide": false,
 	// Tailwind
-	"css.lint.unknownAtRules": "ignore",
-	// +Todo
-	"todo.timekeeping.finished.time": false,
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
 	// GitLens
 	"gitlens.codeLens.enabled": false,
 	"gitlens.currentLine.enabled": false,
-	"gitlens.statusBar.enabled": false,
+	"gitlens.statusBar.enabled": true,
 	// CodeSnap
 	"codesnap.showWindowControls": false,
 	"codesnap.showLineNumbers": false,
@@ -80,8 +88,6 @@
 	"codesnap.containerPadding": "0",
 	"codesnap.roundedCorners": false,
 	"codesnap.boxShadow": "none",
-	// XState
-	"xstate.nestTypegenFiles": false,
 	// CSS variables autocomplete
 	"cssvar.files": ["./node_modules/open-props/open-props.min.css"],
 	"cssvar.ignore": [],
@@ -98,6 +104,7 @@
 	"editor.linkedEditing": true,
 	// Respect keyboard mappings
 	"keyboard.dispatch": "keyCode",
-	"workbench.editor.empty.hint": "hidden",
-	"workbench.activityBar.location": "hidden"
+	// GitHub
+	"githubPullRequests.fileListLayout": "tree",
+	"githubPullRequests.pullBranch": "never"
 }

@@ -99,5 +99,30 @@
       "  $2",
       "{/key}"
     ]
+  },
+  "props": {
+    "prefix": "props",
+    "body": [
+      "<script lang=\"ts\">",
+      "  let { $0 } = \\$props()",
+      "</script>"
+    ],
+    "description": "props"
+  },
+  "snippet": {
+    "prefix": "snippet",
+    "description": "snippet",
+    "body": [
+      "{#snippet $1}",
+      "  $2",
+      "{/snippet}"
+    ]
+  },
+  "render": {
+    "prefix": "render",
+    "description": "render",
+    "body": [
+      "{@render children()}"
+    ]
   }
 }
