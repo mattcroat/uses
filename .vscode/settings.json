@@ -6,8 +6,8 @@
 	"window.menuBarVisibility": "hidden",
 	"window.commandCenter": false,
 	"window.zoomLevel": 1,
-	"workbench.colorTheme": "poimandres-noitalics",
-	"workbench.iconTheme": "symbols",
+	"workbench.colorTheme": "Catppuccin Mocha",
+	"workbench.iconTheme": "catppuccin-mocha",
 	"workbench.startupEditor": "none",
 	"workbench.sideBar.location": "left",
 	"workbench.layoutControl.enabled": false,
@@ -20,7 +20,7 @@
 	"workbench.activityBar.location": "hidden",
 	"workbench.statusBar.visible": true,
 	"workbench.panel.showLabels": false,
-	"editor.folding": false,
+	"editor.folding": true,
 	"editor.glyphMargin": false,
 	"editor.lineNumbers": "on",
 	"editor.lightbulb.enabled": "off",
@@ -38,17 +38,30 @@
 	"symbols.hidesExplorerArrows": false,
 	// Font
 	"editor.fontFamily": "Monaspace Neon, MonoLisa, Geist Mono, Monocraft, JetBrains Mono, IBM Plex Mono, Mononoki Nerd Font, Droid Sans Mono, Anonymous Pro, Operator Mono Book, Fira Code, Cascadia Code",
-	"editor.fontSize": 16,
+	"editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss01', 'ss02'",
+	"editor.fontSize": 14,
 	"editor.lineHeight": 2,
 	"editor.tabSize": 2,
 	"editor.wordWrap": "on",
 	// Terminal
 	"terminal.integrated.fontFamily": "Monaspace Neon, MonoLisa, Monocraft, JetBrains Mono, IBM Plex Mono, Mononoki Nerd Font, Fira Code",
-	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.fontSize": 14,
 	"terminal.integrated.cursorStyle": "line",
 	"terminal.integrated.cursorBlinking": false,
 	"terminal.integrated.defaultProfile.linux": "zsh",
 	"terminal.integrated.shellIntegration.decorationsEnabled": "never",
+	// "terminal.integrated.profiles.linux": {
+	//   "zsh": {
+	//     "path": "/usr/bin/env",
+	//     "args": [
+	//       "--",
+	//       "flatpak-spawn",
+	//       "--host",
+	//       "--env=TERM=xterm-256color",
+	//       "zsh"
+	//     ]
+	//   }
+	// },
 	// Emmet
 	"emmet.includeLanguages": {
 		"javascript": "javascriptreact"
@@ -64,7 +77,8 @@
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	// Svelte
 	"[svelte]": {
-		"editor.defaultFormatter": "svelte.svelte-vscode"
+		"editor.defaultFormatter": "svelte.svelte-vscode",
+		"editor.codeLens": false
 	},
 	"svelte.enable-ts-plugin": true,
 	// Linux multi-cursor
@@ -77,6 +91,8 @@
 	"files.associations": {
 		"*.css": "tailwindcss"
 	},
+	// +Todo
+	"todo.timekeeping.finished.time": false,
 	// GitLens
 	"gitlens.codeLens.enabled": false,
 	"gitlens.currentLine.enabled": false,
@@ -88,6 +104,8 @@
 	"codesnap.containerPadding": "0",
 	"codesnap.roundedCorners": false,
 	"codesnap.boxShadow": "none",
+	// XState
+	"xstate.nestTypegenFiles": false,
 	// CSS variables autocomplete
 	"cssvar.files": ["./node_modules/open-props/open-props.min.css"],
 	"cssvar.ignore": [],
@@ -106,5 +124,11 @@
 	"keyboard.dispatch": "keyCode",
 	// GitHub
 	"githubPullRequests.fileListLayout": "tree",
-	"githubPullRequests.pullBranch": "never"
+	"githubPullRequests.pullBranch": "never",
+	// Catppuccin
+	"editor.semanticHighlighting.enabled": true,
+	"terminal.integrated.minimumContrastRatio": 1,
+	"catppuccin.italicKeywords": false,
+	"catppuccin.italicComments": false,
+	"catppuccin.boldKeywords": false
 }

@@ -2,9 +2,10 @@
 	"recommendations": [
 		"aaron-bond.better-comments",
 		"adpyke.codesnap",
-		"alefragnani.bookmarks",
 		"bierner.comment-tagged-templates",
 		"bradlc.vscode-tailwindcss",
+		"catppuccin.catppuccin-vsc",
+		"catppuccin.catppuccin-vsc-icons",
 		"dbaeumer.vscode-eslint",
 		"eamodio.gitlens",
 		"esbenp.prettier-vscode",
