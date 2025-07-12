@@ -27,7 +27,7 @@
     "prefix": "script module",
     "description": "script module",
     "body": [
-      "<script context=\"module\" lang=\"ts\">",
+      "<script lang=\"ts\" module>",
       "  ${0}",
       "</script>"
     ]
@@ -71,9 +71,7 @@
     "prefix": "pre",
     "description": "view data",
     "body": [
-      "<pre>",
-      " {JSON.stringify($0, null, 2)}",
-      "</pre>"
+      "<pre>{JSON.stringify($0, null, 2)}</pre>"
     ]
   },
   "await": {
@@ -123,6 +121,17 @@
     "description": "render",
     "body": [
       "{@render children()}"
+    ]
+  },
+  "children": {
+    "prefix": "children",
+    "body": [
+      "<script lang=\"ts\">",
+      "\tlet { children } = \\$props()",
+      "</script>",
+      "",
+      "{@render children?.()}",
+      ""
     ]
   }
 }

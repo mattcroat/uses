@@ -98,6 +98,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Fortune
+# fortune | cowsay | lolcat
+
 # Git
 alias gs='git status -sb'
 alias ga='git add'
@@ -123,6 +126,9 @@ alias ls='exa'
 alias ll='exa -l -a'
 alias cat='bat'
 
+# Code
+# alias code='flatpak run com.visualstudio.code'
+
 # Node version manager
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
@@ -131,7 +137,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 eval "$(starship init zsh)"
 
 # Development
-cd ~/dev
+# cd ~/dev
 
 # pnpm
 export PNPM_HOME="/home/matia/.local/share/pnpm"
@@ -141,9 +147,12 @@ export PATH="$PNPM_HOME:$PATH"
 export DENO_INSTALL="/home/matia/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
-# pnpm
-export PNPM_HOME="/home/matia/.local/share/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# bun completions
+[ -s "/home/matia/.bun/_bun" ] && source "/home/matia/.bun/_bun"
+
+# zoxide
+eval "$(zoxide init zsh)"
