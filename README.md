@@ -4,9 +4,9 @@
 
 ## Operating System
 
-### Linux Distro and Desktop Environment
+### Linux
 
-- [Manjaro Linux](https://manjaro.org/)/[GNOME](https://www.gnome.org/)
+- [Manjaro](https://manjaro.org/) / [GNOME](https://www.gnome.org/)
 
 ### GNOME Extensions
 
