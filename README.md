@@ -1,6 +1,6 @@
 # Development Setup
 
-This is my development setup.
+![Development setup](/images/preview.png)
 
 ## Operating System
 
