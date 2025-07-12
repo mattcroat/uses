@@ -1,0 +1,344 @@
+[blur-my-shell]
+settings-version=2
+
+[blur-my-shell/appfolder]
+brightness=0.59999999999999998
+sigma=30
+
+[blur-my-shell/dash-to-dock]
+blur=true
+brightness=0.59999999999999998
+sigma=30
+static-blur=true
+style-dash-to-dock=0
+
+[blur-my-shell/panel]
+brightness=0.59999999999999998
+sigma=30
+
+[blur-my-shell/window-list]
+brightness=0.59999999999999998
+sigma=30
+
+[dash-to-dock]
+apply-custom-theme=false
+autohide=true
+autohide-in-fullscreen=true
+background-opacity=0.10000000000000001
+click-action='minimize'
+custom-background-color=true
+custom-theme-shrink=false
+dash-max-icon-size=48
+dock-fixed=false
+dock-position='BOTTOM'
+force-straight-corner=false
+height-fraction=1.0
+hot-keys=false
+intellihide=false
+intellihide-mode='ALL_WINDOWS'
+max-alpha=0.80000000000000004
+middle-click-action='launch'
+preferred-monitor=-2
+preferred-monitor-by-connector='HDMI-0'
+running-indicator-style='DOTS'
+scroll-to-focused-application=true
+shift-click-action='minimize'
+shift-middle-click-action='launch'
+show-apps-at-top=true
+show-favorites=true
+show-mounts=false
+show-running=true
+show-show-apps-button=false
+show-trash=false
+transparency-mode='FIXED'
+
+[forge]
+css-last-update=uint32 37
+focus-border-toggle=false
+preview-hint-enabled=true
+stacked-tiling-mode-enabled=true
+tabbed-tiling-mode-enabled=true
+tiling-mode-enabled=true
+window-gap-size=uint32 8
+
+[forge/keybindings]
+con-split-horizontal=['<Super>z']
+con-split-layout-toggle=['<Super>g']
+con-split-vertical=['<Super>v']
+con-stacked-layout-toggle=['<Shift><Super>s']
+con-tabbed-layout-toggle=['<Shift><Super>t']
+con-tabbed-showtab-decoration-toggle=['<Control><Alt>y']
+focus-border-toggle=['<Super>x']
+prefs-open=['<Control><Super>period']
+prefs-tiling-toggle=['<Super>w']
+window-focus-down=['<Super>j']
+window-focus-left=['<Super>h']
+window-focus-right=['<Super>l']
+window-focus-up=['<Super>k']
+window-gap-size-decrease=['<Control><Super>minus']
+window-gap-size-increase=['<Control><Super>plus']
+window-move-down=['<Shift><Super>j']
+window-move-left=['<Shift><Super>h']
+window-move-right=['<Shift><Super>l']
+window-move-up=['<Shift><Super>k']
+window-resize-bottom-decrease=['<Shift><Control><Super>i']
+window-resize-bottom-increase=['<Control><Super>u']
+window-resize-left-decrease=['<Shift><Control><Super>o']
+window-resize-left-increase=['<Control><Super>y']
+window-resize-right-decrease=['<Shift><Control><Super>y']
+window-resize-right-increase=['<Control><Super>o']
+window-resize-top-decrease=['<Shift><Control><Super>u']
+window-resize-top-increase=['<Control><Super>i']
+window-snap-center=['<Control><Alt>c']
+window-snap-one-third-left=['<Control><Alt>d']
+window-snap-one-third-right=['<Control><Alt>g']
+window-snap-two-third-left=['<Control><Alt>e']
+window-snap-two-third-right=['<Control><Alt>t']
+window-swap-down=['<Control><Super>j']
+window-swap-last-active=['<Super>Return']
+window-swap-left=['<Control><Super>h']
+window-swap-right=['<Control><Super>l']
+window-swap-up=['<Control><Super>k']
+window-toggle-always-float=['<Shift><Super>c']
+window-toggle-float=['<Super>c']
+workspace-active-tile-toggle=['<Shift><Super>w']
+
+[hidetopbar]
+enable-active-window=false
+enable-intellihide=false
+mouse-sensitive=true
+
+[just-perfection]
+accessibility-menu=true
+activities-button=true
+animation=0
+background-menu=true
+clock-menu=true
+controls-manager-spacing-size=0
+dash=true
+dash-icon-size=0
+double-super-to-appgrid=true
+osd=true
+panel=true
+panel-in-overview=true
+ripple-box=true
+search=true
+show-apps-button=true
+startup-status=1
+support-notifier-showed-version=34
+theme=false
+window-demands-attention-focus=false
+window-picker-icon=true
+window-preview-caption=true
+window-preview-close-button=true
+workspace=true
+workspace-background-corner-size=0
+workspace-popup=false
+workspaces-in-app-grid=true
+
+[materialshell/layouts]
+default-layout='half'
+float=false
+half=true
+ratio-value=0.54999999999999993
+split=false
+windows-excluded='Enpass,Gnome-layout-switcher'
+
+[materialshell/theme]
+clock-horizontal=true
+primary-color='#2eb398'
+taskbar-item-style='name'
+
+[nightthemeswitcher]
+commands-enabled=false
+gtk-variant-day='Adwaita-maia-compact'
+gtk-variant-night='Adwaita-maia-compact-dark'
+manual-gtk-variants=false
+manual-shell-variants=false
+manual-time-source=true
+ondemand-time='night'
+settings-version=1
+shell-variant-day='Adwaita-maia-compact'
+shell-variant-night='Adwaita-maia-compact-dark'
+time-source='ondemand'
+
+[nightthemeswitcher/commands]
+enabled=false
+sunrise='sed -i "s/Adwaita-maia-dark.conf/Adwaita-maia.conf/" ~/.config/qt5ct/qt5ct.conf'
+sunset='sed -i "s/Adwaita-maia.conf/Adwaita-maia-dark.conf/" ~/.config/qt5ct/qt5ct.conf'
+
+[nightthemeswitcher/gtk-variants]
+day='Adwaita-maia-compact'
+manual=true
+night='Adwaita-maia-compact-dark'
+
+[nightthemeswitcher/icon-variants]
+day='Papirus-Light'
+night='Papirus-Dark'
+
+[nightthemeswitcher/shell-variants]
+day='Adwaita-maia-compact'
+enabled=false
+manual=true
+night='Adwaita-maia-compact-dark'
+
+[nightthemeswitcher/time]
+manual-time-source=true
+nightthemeswitcher-ondemand-keybinding=['<Shift><Super>t']
+ondemand-time='night'
+time-source='ondemand'
+
+[openbar]
+auto-bgalpha=false
+autofg-bar=false
+autofg-menu=false
+autohg-bar=false
+autohg-menu=false
+autotheme-font=false
+balpha=1.0
+bartype='Islands'
+bg-change=true
+bgalpha=0.0
+bgalpha-wmax=1.0
+bgalpha2=0.69999999999999996
+bguri='file:///home/matia/.local/share/backgrounds/2024-09-25-19-30-31-thumb-1920-1361560.png'
+bottom-margin=0.0
+boxalpha=0.0
+bwidth=0.0
+candyalpha=0.98999999999999999
+candybar=false
+count1=230855
+count10=7224
+count11=1004
+count12=347
+count2=87911
+count3=66694
+count4=49279
+count5=47053
+count6=35486
+count7=26809
+count8=12472
+count9=7792
+dark-bguri='file:///home/matia/.local/share/backgrounds/2024-09-25-19-30-31-thumb-1920-1361560.png'
+dark-fgcolor=['1.000', '1.000', '1.000']
+dark-hcolor=['0.467', '0.463', '0.482']
+dark-iscolor=['0.118', '0.118', '0.176']
+dark-palette1=['7', '35', '90']
+dark-palette10=['175', '118', '129']
+dark-palette11=['183', '135', '74']
+dark-palette12=['156', '78', '101']
+dark-palette2=['31', '126', '200']
+dark-palette3=['214', '189', '185']
+dark-palette4=['10', '79', '164']
+dark-palette5=['75', '167', '225']
+dark-palette6=['4', '11', '36']
+dark-palette7=['61', '113', '159']
+dark-palette8=['29', '73', '128']
+dark-palette9=['95', '78', '126']
+default-font='Sans 12'
+fgalpha=1.0
+fgcolor=['1.000', '1.000', '1.000']
+font='Monaspace Neon Medium 11'
+gradient=false
+halpha=0.10000000000000001
+hcolor=['0.467', '0.463', '0.482']
+heffect=false
+height=35.0
+hpad=1.0
+import-export=false
+isalpha=1.0
+iscolor=['0.118', '0.118', '0.176']
+light-bguri='file:///home/matia/.local/share/backgrounds/2024-09-25-19-30-31-thumb-1920-1361560.png'
+light-palette1=['7', '35', '90']
+light-palette10=['175', '118', '129']
+light-palette11=['183', '135', '74']
+light-palette12=['156', '78', '101']
+light-palette2=['31', '126', '200']
+light-palette3=['214', '189', '185']
+light-palette4=['10', '79', '164']
+light-palette5=['75', '167', '225']
+light-palette6=['4', '11', '36']
+light-palette7=['61', '113', '159']
+light-palette8=['29', '73', '128']
+light-palette9=['95', '78', '126']
+margin=2.0
+menustyle=false
+monitor-height=1080
+monitor-width=1920
+neon=false
+palette1=['7', '35', '90']
+palette10=['175', '118', '129']
+palette11=['183', '135', '74']
+palette12=['156', '78', '101']
+palette2=['31', '126', '200']
+palette3=['214', '189', '185']
+palette4=['10', '79', '164']
+palette5=['75', '167', '225']
+palette6=['4', '11', '36']
+palette7=['61', '113', '159']
+palette8=['29', '73', '128']
+palette9=['95', '78', '126']
+pause-reload=false
+reloadstyle=false
+set-bottom-margin=true
+set-fullscreen=true
+set-notif-position=false
+set-overview=false
+shadow=false
+shalpha=0.20000000000000001
+trigger-reload=true
+vpad=2.0
+
+[pop-shell]
+active-hint=false
+active-hint-border-radius=uint32 4
+focus-left=@as []
+focus-right=@as []
+gap-inner=uint32 2
+gap-outer=uint32 2
+show-title=false
+tile-by-default=true
+
+[rounded-window-corners]
+custom-rounded-corner-settings=@a{sv} {}
+focused-shadow={'vertical_offset': 4, 'horizontal_offset': 0, 'blur_offset': 28, 'spread_radius': 4, 'opacity': 60}
+global-rounded-corner-settings={'padding': <{'left': <uint32 1>, 'right': <uint32 1>, 'top': <uint32 1>, 'bottom': <uint32 1>}>, 'keep_rounded_corners': <{'maximized': <false>, 'fullscreen': <false>}>, 'border_radius': <uint32 12>, 'smoothing': <uint32 0>, 'enabled': <true>}
+settings-version=uint32 5
+unfocused-shadow={'horizontal_offset': 0, 'vertical_offset': 2, 'blur_offset': 12, 'spread_radius': -1, 'opacity': 65}
+
+[space-bar/appearance]
+active-workspace-background-color='rgb(61,56,70)'
+application-styles='.space-bar {\n  -natural-hpadding: 12px;\n}\n\n.space-bar-workspace-label.active {\n  margin: 0 4px;\n  background-color: rgb(61,56,70);\n  color: rgba(255,255,255,1);\n  border-color: rgba(0,0,0,0);\n  font-weight: 700;\n  border-radius: 4px;\n  border-width: 0px;\n  padding: 3px 8px;\n}\n\n.space-bar-workspace-label.inactive {\n  margin: 0 4px;\n  background-color: rgba(0,0,0,0);\n  color: rgba(255,255,255,1);\n  border-color: rgba(0,0,0,0);\n  font-weight: 700;\n  border-radius: 4px;\n  border-width: 0px;\n  padding: 3px 8px;\n}\n\n.space-bar-workspace-label.inactive.empty {\n  margin: 0 4px;\n  background-color: rgba(0,0,0,0);\n  color: rgba(255,255,255,0.5);\n  border-color: rgba(0,0,0,0);\n  font-weight: 700;\n  border-radius: 4px;\n  border-width: 0px;\n  padding: 3px 8px;\n}'
+workspace-margin=4
+
+[space-bar/behavior]
+always-show-numbers=false
+indicator-style='workspaces-bar'
+position='left'
+
+[space-bar/state]
+version=33
+
+[unite]
+autofocus-windows=true
+enable-titlebar-actions=true
+extend-left-box=true
+hide-activities-button='auto'
+hide-app-menu-icon=true
+hide-dropdown-arrows=true
+hide-window-titlebars='maximized'
+notifications-position='right'
+reduce-panel-spacing=true
+restrict-to-primary-screen=true
+show-desktop-name=true
+show-legacy-tray=true
+show-window-buttons='maximized'
+show-window-title='maximized'
+
+[user-theme]
+name=''
+
+[vertical-overview]
+dash-max-height=100
+hide-dash=false
+override-dash=false
