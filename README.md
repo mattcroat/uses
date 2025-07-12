@@ -4,37 +4,58 @@ This is my development setup.
 
 ## Operating System
 
-I use Linux by the way.
+### Linux Distro And Desktop Environment
 
-### Setup
+- [Manjaro Linux](https://manjaro.org/)
+- [GNOME](https://www.gnome.org/)
 
-- [Manjaro Linux](https://manjaro.org/) (operating system)
-- [GNOME](https://www.gnome.org/) (desktop environment)
-- [Pop Shell](https://github.com/pop-os/shell) (tiling window management extension)
+### GNOME Extensions
+
+- [Pop Shell](https://github.com/pop-os/shell) (tiling window managemer)
+- [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) (adds blur look to GNOME shell)
+- [Hide Top Bar](https://extensions.gnome.org/extension/545/hide-top-bar/) (hides top panel)
+- [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/) (tweak tool to customize GNOME shell and UI elements)
+- [Open Bar](https://extensions.gnome.org/extension/6580/open-bar/) (top panel theming)
+- [Space Bar](https://extensions.gnome.org/extension/5090/space-bar/) (top panel workspace indicator)
 
 ## Terminal
 
-### Setup
+- [Ghostty](https://ghostty.org/) (terminal)
+
+### Terminal Extensions
 
 - [Oh My ZSH](https://ohmyz.sh/) (Z shell)
 - [Starship](https://starship.rs/) (cross-shell prompt)
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) (completions)
 - [nvm](https://github.com/nvm-sh/nvm) (Node version manager)
 
-### Configs
+### Terminal Config
 
+- [Ghostyy](/config/.config/ghostty/config)
 - [Zsh](/config/.zshrc)
-- [Starship](/config/starship.toml)
+- [Starship](/config/.config/starship.toml)
 
-## VS Code Settings
+## Code Editor
 
-### Setup
+- [VS Code](https://code.visualstudio.com/)
 
-- [Poimandres](https://marketplace.visualstudio.com/items?itemName=pmndrs.pmndrs) (theme)
-- [Monaspace Neon](https://monaspace.githubnext.com/), [MonoLisa](https://www.monolisa.dev/) (font)
-- [Symbols](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.symbols) (icons)
+### Code Editor Theme
 
-### Configs
+#### Poimandres
+
+- [Poimandres](https://marketplace.visualstudio.com/items?itemName=pmndrs.pmndrs)
+- [Symbols](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.symbols)
+
+#### Catppuccin
+
+- [Catppuccin Mocha](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc)
+- [Catppuccin Icons](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-icons) (icons)
+
+### Code Editor Font
+
+- [Monaspace Neon](https://monaspace.githubnext.com/)
+
+### Code Editor Settings
 
 - [Settings](/.vscode/settings.json)
 - [Extensions](/.vscode/extensions.json)
