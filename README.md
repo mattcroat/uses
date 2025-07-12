@@ -4,14 +4,13 @@
 
 ## Operating System
 
-### Linux Distro And Desktop Environment
+### Linux Distro and Desktop Environment
 
-- [Manjaro Linux](https://manjaro.org/)
-- [GNOME](https://www.gnome.org/)
+- [Manjaro Linux](https://manjaro.org/)/[GNOME](https://www.gnome.org/)
 
 ### GNOME Extensions
 
-- [Pop Shell](https://github.com/pop-os/shell) (tiling window managemer)
+- [Pop Shell](https://github.com/pop-os/shell) (tiling window manager)
 - [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) (adds blur look to GNOME shell)
 - [Hide Top Bar](https://extensions.gnome.org/extension/545/hide-top-bar/) (hides top panel)
 - [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/) (tweak tool to customize GNOME shell and UI elements)
@@ -24,7 +23,7 @@
 
 ## Terminal
 
-- [Ghostty](https://ghostty.org/) (terminal)
+- [Ghostty](https://ghostty.org/)
 
 ### Terminal Extensions
 
