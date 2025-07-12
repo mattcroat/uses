@@ -18,6 +18,10 @@ This is my development setup.
 - [Open Bar](https://extensions.gnome.org/extension/6580/open-bar/) (top panel theming)
 - [Space Bar](https://extensions.gnome.org/extension/5090/space-bar/) (top panel workspace indicator)
 
+### GNOME Extensions Settings
+
+- [Settings](/GNOME/extensions.dconf)
+
 ## Terminal
 
 - [Ghostty](https://ghostty.org/) (terminal)
@@ -49,7 +53,7 @@ This is my development setup.
 #### Catppuccin
 
 - [Catppuccin Mocha](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc)
-- [Catppuccin Icons](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-icons) (icons)
+- [Catppuccin Icons](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-icons)
 
 ### Code Editor Font
 
