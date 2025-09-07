@@ -34,7 +34,7 @@
 
 ### Terminal Config
 
-- [Ghostyy](/config/.config/ghostty/config)
+- [Ghostty](/config/.config/ghostty/config)
 - [Zsh](/config/.zshrc)
 - [Starship](/config/.config/starship.toml)
 
